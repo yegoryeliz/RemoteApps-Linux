@@ -38,6 +38,7 @@ Terminal=false
 Type=Application
 StartupNotify=true
 Exec=/home/username/.config/Remote/Scripts/YourShellScript.sh
-Icon=/home/username/.config/Remote/Icons/YourIcon.png```
+Icon=/home/username/.config/Remote/Icons/YourIcon.png
+```
 
 * last but not least, run `xfreerdp /path/to/your/RDPfile.RDP` and follow the prompts. this is important because you need to accept the certificate of the RDP server, otherwise your shortcuts worn work.
