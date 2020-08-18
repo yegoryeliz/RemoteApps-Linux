@@ -30,7 +30,7 @@ _Alternitively, you may use a password file for more security, but that is beyou
 
 * as root create a file in `/usr/share/applications` with `.desktop` extention. this will be your application shortcut in GNOME (theoretically, this should work for most other DE's but i havent tested it)
 
-* the contents of that file should be as follows:
+* the contents of that file should be in the following format:
 ```[Desktop Entry]
 Type=Application
 Name=Autocad
@@ -39,3 +39,5 @@ Type=Application
 StartupNotify=true
 Exec=/home/username/.config/Remote/Scripts/YourShellScript.sh
 Icon=/home/username/.config/Remote/Icons/YourIcon.png```
+
+* last but not least, run `xfreerdp /path/to/your/RDPfile.RDP` and follow the prompts. this is important because you need to accept the certificate of the RDP server, otherwise your shortcuts worn work.
