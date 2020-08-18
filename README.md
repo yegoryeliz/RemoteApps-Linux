@@ -1,5 +1,5 @@
 # RemoteApps-Linux Toutorial
-###### My appologies for the crudeness of this toutorial, I intend to make it more percise in the future.
+###### My appologies for the crudeness of this toutorial, I intend to make it more percise in the future. I do not guarantee this will work for your system, tinker and adjust accordingly. I cannot provide support for this.
 ## Assumptions
 ###### This tutorial makes the following assumptions: 
 * you are comfortable with the commandline and you know your way around your distribution of choice.
