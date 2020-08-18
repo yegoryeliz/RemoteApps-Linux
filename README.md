@@ -11,4 +11,4 @@
 * [FreeRDP](https://www.freerdp.com/) installed for your system.
 
 ## Steps
-1. Download the `.RDP` file for your app
+l. Download the `.RDP` file for your app 
