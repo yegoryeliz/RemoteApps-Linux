@@ -13,6 +13,6 @@
 * [FreeRDP](https://www.freerdp.com/) installed for your system.
 
 ## Steps
-l. Download the `.RDP` file for your app. If you are accessing a 
-l. Create a folder where you would like to store the config for these apps e.g. `/home/username/.config/Remote`
+l.  Download the `.RDP` file for your app. If you are accessing a 
+l.  Create a folder where you would like to store the config for these apps e.g. `/home/username/.config/Remote`
 
