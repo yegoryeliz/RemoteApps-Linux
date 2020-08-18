@@ -1,4 +1,5 @@
-# RemoteApps-Linux
+# RemoteApps-Linux Toutorial
+###### My appologies for the crudeness of this toutorial, I intend to make it more percise in the future.
 ## Assumptions
 ###### This tutorial makes the following assumptions: 
 * you are comfortable with the commandline and you know your way around your distribution of choice.
@@ -13,3 +14,4 @@
 
 ## Steps
 l. Download the `.RDP` file for your app. If you are accessing a 
+l. Create a folder where you would like to store the config for these apps 
