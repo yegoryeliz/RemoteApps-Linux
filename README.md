@@ -9,3 +9,5 @@
 * Icons - I reccomend the [Papirus](https://www.gnome-look.org/s/Gnome/p/1166289)  icon pack since it has over 5,000 icons. Chances are you'll find one for your app. If not, the internet is your friend. 
 * An `.RDP` file for the RemoteApp. 
 * [FreeRDP](https://www.freerdp.com/) installed for your system.
+
+## Steps
