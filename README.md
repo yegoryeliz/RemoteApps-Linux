@@ -26,4 +26,4 @@ if grep -q '97'
   else xfreerdp '/home/username/.config/Remote/RDP/YourRDPfile.rdp' /scale:180 /p:'P@$$w0Rd'
 fi}
 ```
-  * Alternitively, you may use a password for more security, but that is beyound the scope of this, for now.
+_Alternitively, you may use a password file for more security, but that is beyound the scope of this, for now._
