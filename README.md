@@ -27,3 +27,15 @@ if grep -q '97'
 fi}
 ```
 _Alternitively, you may use a password file for more security, but that is beyound the scope of this, for now._
+
+* as root create a file in `/usr/share/applications` with `.desktop` extention. this will be your application shortcut in GNOME (theoretically, this should work for most other DE's but i havent tested it)
+
+* the code for that file should be as follows:
+```[Desktop Entry]
+Type=Application
+Name=Autocad
+Terminal=false
+Type=Application
+StartupNotify=true
+Exec=/home/yegoryeliz/.config/Remote/Scripts/acad.sh
+Icon=/home/yegoryeliz/.config/Remote/Icons/acad.png```
