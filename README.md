@@ -14,7 +14,7 @@
 * [xdpyinfo](https://docs.oracle.com/cd/E36784_01/html/E36870/xdpyinfo-1.html) this may or may not come with your systems as part of X11, if it is not installed, please install it from your package manager. this is used to check for HiDPI displays and adjust resolution accordingly.
 
 ## Steps
-* Download the `.RDP` file for your app. If you are accessing a 
+* Download the `.RDP` file for your app.
 * Create a folder where you would like to store the config for these apps e.g. `/home/username/.config/Remote`
 * Create folders with the name `RDP `and `Scripts` in that directory. Optionally you can create an `Icons` folder there as well, or use `/home/user/.local/share/icons` as your icons directory, up to you.
 * Copy `.RDP` files into `/home/username/.config/Remote/RDP`
