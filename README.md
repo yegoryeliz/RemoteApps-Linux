@@ -1,6 +1,7 @@
 # RemoteApps-Linux
 ## Assumptions
-###### This tutorial makes the following assumes 
+###### This tutorial makes the following assumptions: 
+* you are comfortable with the commandline and you know your way around your distribution of choice.
 * that you either have access to a remote app server and `.rdp` files
 * or you have the ability to set up a remote app server (setting up an RDP server is outside of the scope of this tutorial)
 
