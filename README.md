@@ -18,11 +18,12 @@
 * Create a folder where you would like to store the config for these apps e.g. `/home/username/.config/Remote`
 * Create folders with the name `RDP `and `Scripts` in that directory. Optionally you can create an `Icons` folder there as well, or use `/home/user/.local/share/icons` as your icons directory, up to you.
 * Copy `.RDP` files into `/home/username/.config/Remote/RDP`
-* Create a shell script with the follwing code: (modify names and paths for each app)
+* For each app - create a shell script with the follwing code: (modify names and paths for each app)
 ```{Bash}<space>{#!/bin/bash
 xdpyinfo | grep resolution|
 if grep -q '97'
-  then xfreerdp '/home/usename/.config/Remote/RDP/cpub-acad-RD_Galaxy-CmsRdsh.rdp' /p:'P@$$w0Rd'
-  else xfreerdp '/home/username/.config/Remote/RDP/cpub-acad-RD_Galaxy-CmsRdsh.rdp' /scale:180 /p:'P@$$w0Rd'
+  then xfreerdp '/home/usename/.config/Remote/RDP/YourRDPfile.rdp' /p:'P@$$w0Rd'
+  else xfreerdp '/home/username/.config/Remote/RDP/YourRDPfile.rdp' /scale:180 /p:'P@$$w0Rd'
 fi}
 ```
+  * Alternitively, you may use a password for more security, but that is beyound the scope of this, for now.
